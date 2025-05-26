@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+.container{
+    background-image: url("https://resize.indiatvnews.com/en/resize/newbucket/1080_-/2025/04/untitled-design-2025-04-10t184501-1744291422.webp");
+  background-size: cover;
+    border:4px solid rgb(0, 0, 0);
+    height: 600px;
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 40%;
+    margin-top: 5%;
+    scrollbar-width: none;
+    overflow: scroll;
+    background-color: rgb(0, 0, 0);
+   
+}
+.top{ 
+    height: 8%;
+    width: 393px;
+    background-color: rgb(65, 239, 65);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 28px;
+    display: flex;
+    align-items:center;
+    position: fixed;
+}
+.ic{
+    color: white;
+    font-size:25px;
+    /* margin-left: 25px; */
+}
+.arrow{
+    padding-left: 8px;
+}
+.Dp{
+    padding-left: 10px;
+}
+.msg{
+    padding-left:10px ;
+}
+.video{
+    padding-left: 120px;
+}
+.Call{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.dots{
+    padding-left: 20px;
+     font-size: 20px;
+}
+
+
+.bottom{
+    height: 5%;
+    background-color: rgb(250, 232, 215);
+    /* border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px; */
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 60px;
+    width: 340px;
+    margin: 5px;
+    position: fixed;
+    /* overflow-y: auto; */
+    
+}
+.empty{
+    height: 8%;
+    background-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    /* border-radius: 30px; */
+    /* display: flex; */
+    /* align-items: center; */
+    position: fixed;
+    bottom: 50px;
+    width: 395px;
+    /* margin: 5px; */
+    position: fixed;
+    /* overflow-y: auto; */
+}
+.last{
+    height: 100px;
+}
+
+.bo{
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+.emoji{
+    margin-left: 10px;
+    /* margin-bottom: -50px; */
+}
+.message{
+    margin-left:px ;
+    font-size: 15px; 
+}
+.file{
+    padding-left: 120px;
+}
+.rupee{
+    padding-left: 0px;
+}
+.cam{
+    padding-left:10px ;
+}
+
+.voice{
+    padding-left: 40px;
+    background-color: rgb(38, 97, 38);
+    border-radius: 50%;
+    color: white;
+     padding: 10px;
+     font-size: 20px;
+     margin-left: 32px;
+    
+}
+.mic{
+    font-size: 15px;
+    
+} 
+
+
+/* .l1{
+    background-color: aqua;
+    height: 20px;
+    width: 100px;
+    margin-top: 40%;
+    border-radius: 5px;
+    padding: 3px;
+} */
+ /* .date{
+    position: sticky;
+ } */
+ .tick{
+    color: blue;
+ }
+ .d1{
+    background-color: bisque;
+   margin-left: 40%;
+   width:80px;
+   border-radius: 20px;
+   padding: 5px;
+   margin-top: 80px;
+   position: sticky;
+   top: 80px;
+
+ }
+ .d2{
+     background-color: bisque;
+   margin-left: 40%;
+   width:80px;
+   border-radius: 20px;
+   margin-top: 20px;
+   padding: 5px;
+   position: sticky;
+   top:80px;
+ }
+ .d3{
+   background-color: bisque;
+   margin-left: 40%;
+   width:80px;
+   border-radius: 20px;
+   margin-top: 20px;
+   padding: 5px;
+   position: sticky;
+   top:80px; 
+ }
+.right{
+    margin-left: auto;
+    color: white;
+}
+
+.r1{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 130px;
+    /* margin-right: -100px; */
+    margin-top: 3%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r2{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: auto;
+    margin-top: 2%;
+    margin-left: 150px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l2{
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 160px;
+    margin-top: 5%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l3{
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 160px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r3{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 100px;
+    margin-top: 2%;
+    margin-left: 290px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r4{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 200p;
+    margin-top: 2%;
+    margin-left: 200px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l4{
+    
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 180px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l5{
+    
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 160px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r6{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 200p;
+    margin-top: 2%;
+    margin-left: 200px ;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.r7{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 200p;
+    margin-top: 2%;
+    margin-left: 200px ;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+.l6{
+     background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 160px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l7{
+     background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 200px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l8{
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 200px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r8{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 200p;
+    margin-top: 2%;
+    margin-left: 200px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r9{
+    background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 250px;
+    margin-top: 2%;
+    margin-left: 200px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l9{
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 110px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l10{
+    background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 200px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r10{
+     background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 150px;
+    margin-top: 2%;
+    margin-left: 240px ;
+    border-radius: 5px;
+    padding: 3px;
+}
+.r11{
+     background-color: rgb(65, 240, 138);
+    height: auto;
+    width: 280px;
+    margin-top: 2%;
+    margin-left: 110px ;
+    border-radius: 5px;
+    padding: 3px;
+}.l11{
+     background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 110px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px;
+}
+.l12{
+   background-color: aliceblue ;
+     background-color: aqua;
+    height: auto;
+    width: 200px;
+    margin-top: 2%;
+    border-radius: 5px;
+    padding: 3px; 
+}
+
